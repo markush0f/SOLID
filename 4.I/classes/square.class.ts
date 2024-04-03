@@ -1,5 +1,5 @@
-import { CalculateInterface } from "./Interfaces/Calculate.interface";
-import { ShapeInterface } from "./Interfaces/shape.interface";
+import { CalculateInterface } from "../Interfaces/Calculate.interface";
+import { ShapeInterface } from "../Interfaces/shape.interface";
 
 
 export class Square implements ShapeInterface, CalculateInterface {

@@ -1,6 +1,5 @@
-import { Square } from "./square.class";
-import { Cuboid } from "./cuboid.class";
-
+import { Square } from "./classes/square.class";
+import { Cuboid } from "./classes/cuboid.class";
 
 const square = new Square(5);
 console.log("Área del cuadrado:", square.area());

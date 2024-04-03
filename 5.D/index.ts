@@ -1,5 +1,7 @@
-import { EmailNotification, PushNotification, TextMessageNotification } from "./notifications";
-import { NotificationService } from "./notificationService";
+import { NotificationService } from "./classes/notification.class";
+import { EmailNotification, TextMessageNotification, PushNotification } from "./classes/notifications.class";
+
+
 
 const emailNotifier = new EmailNotification();
 const textMessageNotifier = new TextMessageNotification();

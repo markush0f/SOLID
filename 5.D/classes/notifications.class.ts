@@ -1,4 +1,5 @@
-import { NotificationSender } from './NotificationSender';
+import { NotificationSender } from "./Notification.class.sender";
+
 
 export class EmailNotification implements NotificationSender {
     sendNotification(message: string): void {

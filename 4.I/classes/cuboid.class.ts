@@ -1,6 +1,6 @@
-import { ShapeInterface } from "./Interfaces/shape.interface";
-import { ThreeDimensionalShapeInterface } from "./Interfaces/ThreeDimnesionalShape.interface";
-import { CalculateInterface } from "./Interfaces/Calculate.interface";
+import { ShapeInterface } from "../Interfaces/shape.interface";
+import { ThreeDimensionalShapeInterface } from "../Interfaces/ThreeDimnesionalShape.interface";
+import { CalculateInterface } from "../Interfaces/Calculate.interface";
 
 export class Cuboid implements ShapeInterface, ThreeDimensionalShapeInterface, CalculateInterface {
     private length: number;

@@ -1,5 +1,5 @@
-import { Rectangle } from "./rectangle.class";
-import { Square } from "./square.class";
+import { Rectangle } from "./classes/rectangle.class";
+import { Square } from "./classes/square.class";
 
 const rectangle = new Rectangle(5, 10);
 console.log("Area of the rectangle:", rectangle.calculateArea());

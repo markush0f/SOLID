@@ -1,4 +1,4 @@
-import { NotificationSender } from "./NotificationSender";
+import { NotificationSender } from "./Notification.class.sender";
 
 export class NotificationService {
     private sender: NotificationSender;
